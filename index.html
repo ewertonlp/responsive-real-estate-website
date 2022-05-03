@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="./assets/css/styles.css">
+
+        <title>Real State Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <div class="nav container">
+                <a href="#" class="nav__logo">Real Estate <i class="ri-home-5-fill"></i></a>
+
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="ri-home-5-line"></i>
+                                <span>Home</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#popular" class="nav__link">
+                                <i class="ri-building-line"></i>
+                                <span>Imóveis</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#value" class="nav__link">
+                                <i class="ri-award-line"></i>
+                                <span>Valores</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#subscribe" class="nav__link">
+                                <i class="ri-phone-line"></i>
+                                <span>Cadastre-se</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Theme Change Button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+                <a href="#contact" class="button nav__button">
+                    Contato
+                </a>
+            </div>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">Encontre <br> Seu Próximo <br> Imóvel<span>.</span></h1>
+                        <p class="home__description">
+                            Encontre uma variedade de imóveis que se adequam a você e sua família,
+                            com muita facilidade, transparência e segurança.
+                        </p>
+
+                        <form action="" class="home__search">
+                            <i class="ri-map-pin-fill"></i>
+                            <input type="search" placeholder="Pesquise por localização..." class="home__search-input">
+                            <button class="button">Buscar</button>
+                        </form>
+
+                        <div class="home__value">
+                            <div>
+                                <h1 class="home__value-number">
+                                    9K <span>+</span>
+                                </h1>
+                                <span class="home__value-description">
+                                    Produtos <br> Premium
+                                </span>
+                            </div>
+                            <div>
+                                <h1 class="home__value-number">
+                                    2K <span>+</span>
+                                </h1>
+                                <span class="home__value-description">
+                                    Clientes <br> Satisfeitos
+                                </span>
+                            </div>
+                            <div>
+                                <h1 class="home__value-number">
+                                    2K <span>+</span>
+                                </h1>
+                                <span class="home__value-description">
+                                    Unidades <br> Entregues
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="home__images">
+                        <div class="home__orbe"></div>
+
+                        <div class="home__img">
+                            <img src="./assets/img/home01.jpg" alt="Hero image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logos section">
+                <div class="logos__container container grid">
+                    <div class="logos__img">
+                        <img src="./assets/img/logo-setin.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="./assets/img/logo-helbor.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="./assets/img/logo-eco-vila.png" alt="">
+                    </div>
+                    <div class="logos__img">
+                        <img src="./assets/img/logo-eztec.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== POPULAR ====================-->
+            <section class="popular section" id="popular">
+                <div class="container">
+                    <span class="section__subtitle">Melhores opções</span>
+                    <h2 class="section__title">
+                        Lançamentos<span>.</span>
+                    </h2>
+
+                    <div class="popular__container swiper">
+                        <div class="swiper-wrapper">
+                            <article class="popular__card swiper-slide">
+                                <img src="./assets/img/popular01.jpg" alt="" class="popular__img">
+
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>R$</span> 266.356
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Apartamento Alto do Pacaembú
+                                    </h3>
+                                    <p class="popular__description">
+                                        Rua das Flores, 2514 - São Paulo/SP #9876
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="./assets/img/popular02.jpg" alt="" class="popular__img">
+
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>R$</span> 435.159
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Casa de Luxo
+                                    </h3>
+                                    <p class="popular__description">
+                                        Rua das Flores, 2514 - São Paulo/SP #9876
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="./assets/img/popular3.jpg" alt="" class="popular__img">
+
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>R$</span> 575.043
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Casa Cond. Santo Antônio
+                                    </h3>
+                                    <p class="popular__description">
+                                        Rua das Flores, 2514 - São Paulo/SP #9876
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="./assets/img/popular04.jpg" alt="" class="popular__img">
+
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>R$</span> 662.024
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        City Garden
+                                    </h3>
+                                    <p class="popular__description">
+                                        Rua das Flores, 2514 - São Paulo/SP #9876
+                                    </p>
+                                </div>
+                            </article>
+
+                            <article class="popular__card swiper-slide">
+                                <img src="./assets/img/popular5.jpg" alt="" class="popular__img">
+
+                                <div class="popular__data">
+                                    <h2 class="popular__price">
+                                        <span>R$</span> 747.043
+                                    </h2>
+                                    <h3 class="popular__title">
+                                        Maison Garden
+                                    </h3>
+                                    <p class="popular__description">
+                                        Rua das Flores, 2514 - São Paulo/SP #9876
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="swiper-button-next">
+                            <i class="ri-arrow-right-s-line"></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class="ri-arrow-left-s-line"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VALUE ====================-->
+            <section class="value section" id="value">
+                <div class="value__container container grid">
+                    <div class="value__images">
+                        <div class="value__orbe"></div>
+
+                        <div class="value__img">
+                            <img src="./assets/img/value.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="value__content">
+                        <div class="value__data">
+                            <span class="section__subtitle">Nossos Valores</span>
+                            <h2 class="section__title">
+                                Valores que geram confiança<span>.</span>
+                            </h2>
+                            <p class="value__description">
+                                Estamos sempre prontos para ajudar, fornecendo o melhor serviço para você.
+                                Acreditamos que um bom lugar para se viver pode tornar sua vida melhor.
+                            </p>
+                        </div>
+
+                        <div class="value__accordion">
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class="ri-shield-keyhole-fill value__accordion-icon"></i>
+                                    <h3 class="value__accordion-title">
+                                        As melhores taxas de juros do mercado
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class="ri-arrow-down-s-fill ri-lg"></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        Trabalhamos com os melhores bancos e as melhores incorporadoras do mercado para garantir a você as melhores taxas de juros.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class="ri-close-circle-fill value__accordion-icon"></i>
+                                    <h3 class="value__accordion-title">
+                                        Excelente padrão de construção
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class="ri-arrow-down-s-fill ri-lg"></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class="ri-bar-chart-box-fill value__accordion-icon"></i>
+                                    <h3 class="value__accordion-title">
+                                        Os melhores preços do mercado
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class="ri-arrow-down-s-fill ri-lg"></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        O preço que fornecemos é o melhor para você, garantimos que não haverá alterações de preço em sua propriedade devido a vários custos inesperados que podem surgir.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="value__accordion-item">
+                                <header class="value__accordion-header">
+                                    <i class="ri-checkbox-fill value__accordion-icon"></i>
+                                    <h3 class="value__accordion-title">
+                                        Segurança dos seus dados
+                                    </h3>
+                                    <div class="value__accordion-arrow">
+                                        <i class="ri-arrow-down-s-fill ri-lg"></i>
+                                    </div>
+                                </header>
+
+                                <div class="value__accordion-content">
+                                    <p class="value__accordion-description">
+                                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CONTACT ====================-->
+            <section class="contact section" id="contact">
+                <div class="contact__container container grid">
+                    <div class="contact__images">
+                        <div class="contact__orbe"></div>
+    
+                        <div class="contact__img">
+                            <img src="./assets/img/contact.png" alt="">
+                        </div>
+                    </div>
+                
+
+                <div class="contact__content">
+                    <div class="contact__data">
+                        <span class="section__subtitle">Contate-nos</span>
+                        <h2 class="section__title">
+                            Fácil de nos contatar<span>.</span>
+                        </h2>
+                        <p class="contact__description">
+                            Há algum problema em encontrar a casa dos seus sonhos? Precisa de um guia na compra da primeira casa? ou precisa de uma consulta sobre questões residenciais? basta entrar em contato conosco.
+                        </p>
+                    </div>
+
+                    <div class="contact__card">
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="ri-phone-line"></i>
+
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Telefone
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        +55 11 0000-0000
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">Ligar agora</button>
+                        </div>
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="ri-message-3-fill"></i>
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        WhatsApp
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        +55 11 0000-0000
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">Enviar Mensagem</button>
+                        </div>
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="ri-vidicon-fill"></i>
+
+                                <div>
+                                    <h3 class="contact__card-title">
+                                        Skype
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        +55 11 0000-0000
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">Chamar</button>
+                        </div>
+
+                        <div class="contact__card-box">
+                            <div class="contact__card-info">
+                                <i class="ri-mail-fill"></i>
+
+                                <div>
+                                    <h3 class="contact__card-title">
+                                       Email
+                                    </h3>
+                                    <p class="contact__card-description">
+                                        meuemail@
+                                        email.com
+                                    </p>
+                                </div>
+                            </div>
+
+                            <button class="button contact__card-button">Enviar email</button>
+                        </div>
+                    </div>
+                </div>
+
+                </div>
+            </section>
+
+            <!--==================== SUBSCRIBE ====================-->
+            <section class="subscribe section" id="subscribe">
+                <div class="subscribe__container container">
+                    <h1 class="subscribe__title">
+                        Cadastre-se
+                    </h1>
+                    <p class="subscribe__description">
+                        Inscreva-se para receber informativos, lançamentos e os melhores preços da sua região.
+                    </p>
+                    <a href="#" class="button subscribe__button">
+                        Cadastrar
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        Holux <i class="ri-home-4-fill"></i>
+                    </a>
+                    <p class="footer__descritpion">
+                        Nossa visão é fazer com que <br>todas as pessoas  
+                        encontrem <br>o imóvel dos seus sonhos.
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            Sobre
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Sobre nós</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Lançamentos</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Novidades & Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Empresa
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Como trabalhamos?</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Capital</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Segurança de dados</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Suporte
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Atendimento</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Fale conosco</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Redes Sociais
+                        </h3>
+
+                        <ul class="footer__social">
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-facebook-circle-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                            <a href="https://www.pinterest.com/" target="_blank" class="footer__social-link">
+                                <i class="ri-pinterest-fill"></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; Ewerton Lopes. Todos os direitos reservados
+                </span>
+
+                <div class="footer__privacy">
+                    <a href="#">Termos & Condições</a>
+                    <a href="#">Política de Privacidade</a>
+                </div>
+            </div>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-s-line"></i>
+        </a>
+
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="./assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>
